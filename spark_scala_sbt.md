@@ -1,27 +1,27 @@
-## spark, scala and sbt
+# spark, scala and sbt
 ---
 
-### spark
+## spark
 
 * spark installing
 
-1. download the tgz file, unzip it and move to /usr/local/spark
-2. add the spark path to env: 
+    1. download the tgz file, unzip it and move to /usr/local/spark
+    2. add the spark path to env: 
 
-    add the code below to ~/.bash_profile
+        add the code below to ~/.bash_profile
 
-    export PATH=$PATH:/usr/local/spark/bin 
+        `export PATH=$PATH:/usr/local/spark/bin`
 
 * spark settings
 
-3. use the ipython interpreter as the default to pyspark
+    3. use the ipython interpreter as the default to pyspark
 
-	vi /usr/local/spark/bin/pyspark
+        `vi /usr/local/spark/bin/pyspark`
 
-	find the python and change it to ipython
-
-
-### scala
+        find the python and change it to ipython
 
 
-### sbt
+## scala
+
+
+## sbt
